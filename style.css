@@ -44,9 +44,14 @@ div.container{
 }
 div.container>div{
     width: 150px;
+    height: 250px;
     background-color: pink;
     border: 2px solid red;
     line-height: 100px;
     text-align: center;
     font-size: 30px;
+}
+div.container>div:nth-of-type(2n){
+height: 150px;
+flex-direction: column;
 }
